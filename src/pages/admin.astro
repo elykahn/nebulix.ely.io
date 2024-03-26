@@ -19,7 +19,14 @@ const config = {
   logo_url: "https://nebulix.unfolding.io/logo.svg",
   local_backend: true,
   backend: {
-    name: "test-repo",
+    name: "github",
+    repo: "elykahn/nebulix.ely.io",
+    branch: "main",
+    api_root: "https://api.github.com",
+    site_domain: "cms.netlify.com",
+    base_url: "https://api.netlify.com",
+    auth_endpoint: "auth",
+    cms_label_prefix: "cms/"
   },
   search: true,
   media_folder: "src/assets",
