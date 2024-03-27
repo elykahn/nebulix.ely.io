@@ -349,7 +349,7 @@ const product = defineCollection({
 	})
 })
 
-const menu = defineCollection({
+/*  const cafe-menu = defineCollection({
 	type: 'content',
 	schema: z.object({
 		title: z.string(),
@@ -440,7 +440,7 @@ const menu = defineCollection({
 			})
 			.optional()
 	})
-})
+// }) */
 
 const page = defineCollection({
 	type: 'content',
